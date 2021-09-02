@@ -94,3 +94,6 @@ then press enter
 
 Or another way
 commit -m "Commit message"
+
+
+To see changes in terminal use -> git df
