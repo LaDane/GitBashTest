@@ -90,3 +90,7 @@ write your merge message
 press "esc" (escape)
 write ":wq" (write & quit)
 then press enter
+
+
+Or another way
+commit -m "Commit message"
