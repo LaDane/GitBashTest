@@ -1,3 +1,14 @@
+[alias]        
+        st = status
+        cout = checkout
+        com = commit
+        br = branch
+        df = diff
+        dfs = diff --staged
+        logg = log --graph --decorate --oneline --abbrev-commit --all
+        acm = !git add . && git commit -m
+
+
 usaw@LAPTOP-62JLOGHS MINGW64 ~
 $ mkdir test
 
@@ -71,5 +82,11 @@ usaw@LAPTOP-62JLOGHS MINGW64 ~/test (master)
 $ git logg
 * a6e527c (HEAD -> master) Test commit
 
-usaw@LAPTOP-62JLOGHS MINGW64 ~/test (master)
-$
+
+
+WHEN COMMITING
+press "i" (i for insert)
+write your merge message
+press "esc" (escape)
+write ":wq" (write & quit)
+then press enter
